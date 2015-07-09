@@ -1,7 +1,3 @@
-# import time
-
-# start_time = time.time()
-
 primes = [2]
 
 def is_prime(number):
@@ -32,5 +28,3 @@ for t in xrange(total_of_test_cases):
 		if (is_prime(number)):
 			print number
 	print
-
-# print("--- %s seconds ---" % (time.time() - start_time))
